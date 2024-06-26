@@ -29,5 +29,13 @@ let hello= ()=>{
 
     console.log(this);
  }
+
+// addNUmbers=(num1,num2)=>{
+//     return num1+num2
+// }
+
+addNUmbers=(num1,num2)=> (num1+num2)
+
+console.log(addNUmbers(2,8))
 hello()
-Hello()
+// Hello()
