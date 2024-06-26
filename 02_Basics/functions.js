@@ -30,4 +30,13 @@ console.log(getUserData());
 
 let res=mulTwoNum(3,5);
 
+function addNumbers(...num){
+    console.log(num);
+
+    return num
+
+}
+
+addNumbers(23,45,79)
+
 // console.log(res);
